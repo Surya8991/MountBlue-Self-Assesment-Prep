@@ -9,7 +9,7 @@ function diagonalDifference(arr) {
         const right = arr[i][arr.length - 1 - i]
 
         rightDia += right
-        leftDia += left
+        leftDia += left;
 
     }
     console.log(Math.abs(leftDia - rightDia));
