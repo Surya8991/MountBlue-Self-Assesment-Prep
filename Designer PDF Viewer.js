@@ -32,6 +32,7 @@ function readLine() {
  *  2. STRING word
  */
 
+// find the Integer which has highest value and multipy by the word length
 function designerPdfViewer(h, word) {
     let wLength = word.length;
     let maxHeight = 0;

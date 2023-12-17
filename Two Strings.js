@@ -1,4 +1,3 @@
-// https://www.hackerrank.com/contests/mountblue-technologies/challenges/two-strings
 'use strict';
 
 const fs = require('fs');
@@ -34,7 +33,13 @@ function readLine() {
 
 function twoStrings(s1, s2) {
     // Write your code here
-
+ const set1 = new Set(s1);
+    for (let char of s2) {
+        if (set1.has(char)) {
+            return 'YES';
+        }
+    }
+    return 'NO';
 }
 
 function main() {
