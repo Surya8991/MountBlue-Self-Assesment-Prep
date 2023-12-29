@@ -36,7 +36,7 @@ function maximizingXor(l, r) {
 
     for (let i = l; i <= r; i++) {
         for (let j = i; j <= r; j++) {
-            const currentXOR = i ^ j; // XOR operation
+            const currentXOR = i ^ j;
 
             if (currentXOR > maxXOR) {
                 maxXOR = currentXOR;
