@@ -43,7 +43,7 @@ function palindromeIndex(s) {
             return -1
         }
         left++
-        right--
+        right--;
     }
     return -1
 }
